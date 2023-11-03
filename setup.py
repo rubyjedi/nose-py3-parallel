@@ -14,7 +14,7 @@ setup(
     url="https://github.com/dlanger/nose-parallel",
     packages=["noseparallel",],
     test_suite="nose.collector",
-    tests_require=["nose"],
+    tests_require=["nose-py3"],
     entry_points="""
         [nose.plugins.0.10]
         noseparallel= noseparallel:ParallelPlugin
